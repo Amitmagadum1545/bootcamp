@@ -1,0 +1,14 @@
+a=$((RANDOM%90+10))
+echo first value=$a
+b=$((RANDOM%90+10))
+echo second value=$b
+c=$((RANDOM%90+10))
+echo third value=$c
+d=$((RANDOM%90+10))
+echo fourth value=$d
+e=$((RANDOM%90+10))
+echo fifth value=$e
+sum=$(( a + b + c + d + e ))
+echo sum of random values=$sum
+avg=$((sum/5))
+echo average of random num=$avg
